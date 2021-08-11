@@ -31,7 +31,7 @@ push_image() {
     fi	
 }
 
-if [ '$#' -eq 3 ]; then
+if [ "$#" -eq 3 ]; then
   BASE_IMAGE=$1
   BUILD_IMAGE=$2
   passwd=$3
